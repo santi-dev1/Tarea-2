@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 10%;
+    width: 100%;
+    background-color: rgb(107, 230, 183);
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 5px;
+}
+
+header h1 {
+    padding: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+    height: 90%;
+}
+
+.container img {
+    height: 400px;
+    width: 200px;
+    margin: 10px;
+}
+
+.animation {
+    transition: transform 0.4s ease;
+}
+
+.animation:hover {
+    transform: scale(1.1);
+}
